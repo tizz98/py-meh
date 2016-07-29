@@ -1,6 +1,15 @@
 # py-meh
 This is a simple wrapper for the [meh.com](https://meh.com) api.
 
+## Installation
+### From Source
+```
+$ pip install git+https://github.com:tizz98/py-meh.git@master
+```
+
+### PyPI
+Coming soon.
+
 ## Get Started
 ```python
 >>> import meh
@@ -9,6 +18,8 @@ This is a simple wrapper for the [meh.com](https://meh.com) api.
 ```
 
 ### Response
+
+The return value is a dict of the JSON response outlined below.
 
 #### Deal
 
